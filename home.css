@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: 'Roboto';
+  color: #001F3F;
+  margin: -0.1px;
+}
+
+.entry {
+  padding-bottom: 300px; 
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  background-color: #001F3F;
+  background-image: url('../img/design-elements/DNA_element.png');
+  background-repeat: no-repeat;
+  background-position: -30%;
+  background-size: 65%;
+}
+
+.main {
+  overflow: auto;
+  padding-left: 12%;
+  padding-right: 12%;
+  width: 100%;
+  height: auto;
+}
+
+.main img {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+
+.main h1 {
+  float: left;
+  padding-right: 5%;
+  margin-top: 10%;
+  width: 60%;
+  height: auto;
+  font-size: 35px;
+  color: #F87846;
+}
+
+.main p {
+  float: left;
+  padding-right: 5%;
+  width: 60%;
+  height: auto;
+  font-size: 20px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.content {
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.first {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+.first .content_logo {
+  width: 10%;
+  height: auto;
+}
+
+.first p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.first .content_schools {
+  width: 60%;
+}
+
+.second {
+  overflow: auto;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5%;
+  background-color: #001F3F;
+}
+
+.second .text {
+  margin-top: 20px;
+  padding-left: 50px;
+  width: 45%;
+  float: left;
+  height: auto;
+  
+}
+
+.second p {
+  text-align: justify;
+  font-size: larger;
+  line-height: 150%;
+}
+
+.second .video {
+  width: 55%;
+  float: right;
+}
+
+.third {
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  text-align: left;
+  border-radius: 10%;
+}
+
+.third img {
+  float: left;
+  padding-right: 5%;
+  width: 40.8%;
+}
+
+.third h3 {
+  margin-bottom: -10px;
+}
+
+.third p {
+  margin-bottom: -5px;
+}
+
+
+/* Will break if monitor size is different. */
+.third .list {
+  float: left;
+  width: 54%;
+  height: auto;
+}
+
+.third .list h3 {
+  padding-top: 5px;
+  margin-bottom: -0.1px;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  border-top: 2px solid #F87846;
+}
+
+.third .icons {
+  float: right;
+  width: 5.2%;
+  height: auto;
+}
+
+.third .icons img {
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80%;
+  height: auto;
+  border-radius: 100%;
+  background-color: #F87846;
+}
